@@ -1,0 +1,45 @@
+Étapes pour faire des merges request
+
+
+I/ New merge request
+
+	I.1/ Par le site 
+	1.	Describe your changes in the commit message.
+	2.	Select an existing branch to add your commit into, 
+		or, if you’d like to create a new branch, type the new branch name (without spaces, capital letters, or special chars).
+	3.	Keep the checkbox checked to start a new merge request straightaway, or, uncheck it to add more changes to that branch before starting the merge request.
+	4.	Click Commit changes.
+
+
+	I.2/ Par le terminal
+	/*création d'une branche de travail */
+	$ git checkout -b my-new-branch
+
+	/* Ajout ou  modification d'une fonctionnalité */
+	$ git add .
+	$ git commit -m "My commit message"
+
+	/* Push */
+	$git push origin my-new-branch
+
+
+II/ Reviewing and mananing merge request
+
+Option à activer : Semi-linear history merge requests (trad. Historique avec ordre-partiel)
+
+"Navigate to a project’s settings, select the Merge commit with semi-linear history option under Merge Requests: Merge method and save your changes."
+-> Autorise les merge uniquement si cela modifie pas le code deja exisant (fast-forward merge). Comme ça pas de problème de compilation 
+
+
+Ajouter des commentaires dans le fichier diff  
+-> clique dans les "..." à gauche du trunk "@@ -XX,XX+XX,XX @@"
+
+
+
+Source :
+merge-request : 
+https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html#create-merge-request-button
+
+reviewing: 
+https://docs.gitlab.com/ee/user/project/merge_requests/reviewing_and_managing_merge_requests.html
+

@@ -1,0 +1,75 @@
+		[JOURNAL]
+
+- Alex Shirlaw @shirlaw
+- Paul Denis @denisp
+- Cerise Hammer @hammer
+- Éléonore Rigal @rigal
+
+
+===================================================================================================
+    [LIENS]
+
+ 
+To Do : 
+- exemple de projet : http://tpoindex.github.io/crobots/pcjs/crobots-pcjs.html
+- install ncurses : https://www.cyberciti.biz/faq/linux-install-ncurses-library-headers-on-debian-ubuntu-centos-fedora/
+- premier pas : https://arnaud-feltz.developpez.com/tutoriels/ncurses/?page=premier_pas
+- tuto poussé : https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/index.html
+
+===================================================================================================
+To Do :
+-interpreteur
+-script
+-ajout de maj dans Arene.c
+-rendre le code de Arene.c plus léger
+-tester 
+-
+
+
+===================================================================================================
+[13-05]-
+Eléonore: essai de script , terminer arene + makefile
+
+[10-05]-
+Cerise : premiere jet de script
+
+[16-04]-
+Eléonore: écriture d'un fichier test burp pour tester le parser mais e vais attendre qu'il soit commenté (je suis donc bloquée, je vais peut-être continuer sur l'arêne, rendre le code plus propre? et regarder de plus près les GO TO) 
++ faire le diagramme
+
+[10-11/04]-
+Eléonore:modification de plusieurs fonctions (et erreur dans ma façon de tester):
+-modification de maj missile + ajout de commentaires
+-ajout état numérique de vie (en plus du visuel)
+---> il faut maintenant se concentrer sur l'interpréteur pour pouvoir tester au mieux avec Arene.c (et non des valeurs arbitraires comme je le fais actuellement)
+
+[03/04]-
+Eléonore: essai de mise à jour état robot (mais bug au niveau du regargement du screen ,à revoir)
+
+[23-24/03]-
+Eléonore: début de l'arene avec mise à jour visuel de l'état de vie des robots
+
+[23/03]-
+Nous avons réparti les taches pour cette semaine:
+--Cerise et Paul vont faire l’interpréteur
+--Eléonore et Alex vont faire l'arene en ncurses 
+
+[04/03]-En cours
+Cerise et Eléonore -> continuation de l'implementation des fonctions des robots et des missiles (pb avec un tableau de robot...)
+
+[26/02]-En cours
+Alex->avancement sur l'arene(en loal,non commit)
+Cerise et Elé->structure et maj (voir commit)
+Paul->avancement sur les parseur (en local)
+
+[05/02] - En Cours
+lecture des documentation et prise de note :
+Alex -> Merge Request
+Cerise -> ncurses.c
+Paul -> GLib 
+
+<<<<<<< HEAD
+Paul -> GLib
+=======
+
+>>>>>>> 3ec7289016e5ec171fbe7adfb0174a837bc5280f
